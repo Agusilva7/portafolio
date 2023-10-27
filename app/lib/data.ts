@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import PIVideoGames from "@/public/PIVideoGames.jpeg"
+import pasantia from "@/public/pasantia.jpeg"
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Soy Henry bootcamp",
     location: "Buenos Aires, Argentina",
     description:
-      "I graduated after 4 months of studying. I immediately found a job as a front-end developer.",
+      "I completed a 4-month bootcamp at SoyHenry",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "CALM ES SIMPLE, Buenos Aires",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    "I participated in a 2-month internship at Calm es Simple, where they were conducting a website refactoring, migrating from WordPress to Next.js.",
     icon: React.createElement(CgWorkAlt),
     date: "2023",
   },
@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Houston, TX",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm currently a Full Stack developer with a specialization in Frontend. My skill set includes expertise in JavaScript, TypeScript, React, Redux, Tailwind, Prisma, Postgrest, SQL, Express, and Next.js. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "present",
   },
@@ -62,18 +62,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Internship Calm es Simple",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "For my final project at SoyHenry, I was selected for an internship at Calm es Simple, where they were migrating their website from WordPress to Next.js. During the internship, I worked on creating static landing pages, the checkout process, and payment gateways.",
+    tags: ["TypeScript","React","Next.js","Styled-Components"],
+    imageUrl: pasantia,
   },
   {
     title: "Word Analytics",
@@ -82,11 +75,19 @@ export const projectsData = [
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
   },
+  {
+  title: "PI VideGames",
+    description:
+    "For my individual project at SoyHenry, I developed a Single Page Application for Video Games. It utilized an API to display all games and featured features such as alphabetical filtering, category filtering, and platform filtering. Users could also create new games through a form with error handling, and the data was saved in a database.",
+    tags:["JavaScript","React","Redux","Node","Express","Sequelize","PostgrestSQL"],
+    imageUrl: PIVideoGames,
+  },
 ] as const;
 
 export const skillsData = [
   "HTML",
   "CSS",
+  "Styled Components",
   "JavaScript",
   "TypeScript",
   "React",

@@ -63,7 +63,7 @@ function Intro() {
           Disfruto creando sitios y aplicaciones.{" "}
         </span>
         <br />
-        <span className="italic">mi enfoque es </span>
+        <span className="italic">my approach </span>
         <span className="underline">React (Next.js)</span>
       </motion.h1>
       <motion.div className="flex flex-col sm:flex-row items-center gap-2 px-4 text-lg font-medium" initial={{opacity:0, y:100}} animate={{opacity:1, y:0}} transition={{delay:0.1}}>
