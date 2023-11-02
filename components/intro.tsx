@@ -60,7 +60,7 @@ function Intro() {
         <span className="font-bold">full-stack developer</span>
         <br />
         <span className="font-bold">
-          Disfruto creando sitios y aplicaciones.{" "}
+          I enjoy creating sites and applications.{" "}
         </span>
         <br />
         <span className="italic">my approach </span>
